@@ -1,0 +1,19 @@
+.novoContato{
+    position: relative;
+    background-color: rgba(0, 0, 0, 80%);
+    height: calc(100vh - 2rem);
+}
+.novoContatoContainer {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 2rem);
+    position: absolute;
+    right: 0;
+    padding: 0 2rem;
+}
+
+.novoContatoContent {
+  max-width: 20rem;
+}
