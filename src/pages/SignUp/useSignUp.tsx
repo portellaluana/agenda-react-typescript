@@ -87,7 +87,7 @@ const useSignUp = () => {
         console.log(response.data);
         refIdTimeout.current = setTimeout(() => {
           navigate(PATHS.login);
-        }, 10000);
+        }, 1000);
       }
       else if(response.status === 409) {
         setFeedback(response.mensagem);

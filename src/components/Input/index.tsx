@@ -3,7 +3,7 @@ import { EyeFill, EyeSlashFill } from "react-bootstrap-icons";
 import S from "./style.module.css";
 import { useInput } from "./useInput";
 
-type InputType = "text" | "password";
+type InputType = "text" | "password" | "number";
 
 interface InputProps {
   type: InputType;

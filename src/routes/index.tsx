@@ -5,6 +5,7 @@ import { PATHS } from "./paths";
 import { Contact, Login } from "../pages";
 import { SignUp } from "../pages/SignUp";
 import { ContactAdd } from "../pages/ContactAdd";
+// import { ContactAdd } from "../pages/ContactAdd";
 
 
 const Router = () => {
@@ -15,9 +16,18 @@ const Router = () => {
         <Route path={PATHS.signUp} element={<SignUp />} />
         <Route path={PATHS.contacts} element={<Contact />} />
         <Route path={PATHS.contactsAdd} element={<ContactAdd />} />
+        <Route path={PATHS.contactsEdit} element={<ContactAdd isEdit />} />
+              
+
+        {/* <Route path={PATHS.details} element={<ContactDetail />} /> */}
+
       </Routes>
     </BrowserRouter>
   );
 };
 
 export { Router };
+
+//delete
+//edit
+//ajuste telefone

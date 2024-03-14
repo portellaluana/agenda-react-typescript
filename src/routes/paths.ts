@@ -2,5 +2,8 @@ export const PATHS = {
     login: '/',
     signUp: '/signup',
     contacts: '/contacts',
-    contactsAdd: '/contacts-add'
+    // details: '/details/:id',
+    details: '/details/',
+    contactsAdd: '/contacts-add',
+    contactsEdit: '/contacts-edit'
 }

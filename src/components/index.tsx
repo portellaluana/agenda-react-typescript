@@ -4,3 +4,5 @@ export { Button } from "./Button";
 export { Table } from "./Table";
 export { Title } from "./Title";
 export { Feedback } from "./Feedback";
+export { InputTel } from "./InputTel";
+
